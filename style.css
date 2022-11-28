@@ -1,3 +1,58 @@
+/* JS */
+/*===========
+inview
+===========*/
+/* 左から */
+.fadeIn_left {
+    opacity: 0;
+    transform: translate(-50%, 0);
+    transition: 1s;
+  }
+  .fadeIn_left.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  /* 右から */
+  .fadeIn_right {
+    opacity: 0;
+    transform: translate(50%, 0);
+    transition: 1s;
+  }
+  .fadeIn_right.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
+/* 下から */
+.fadeIn_up {
+  opacity: 0;
+  transform: translate(0, 50%);
+  transition: 1s;
+}
+.fadeIn_up.is-show {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+/* 上から */
+.fadeIn_down {
+    opacity: 0;
+    transform: translate(0, -50%);
+    transition: 1s;
+  }
+.fadeIn_down.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+/* 中央から */
+.fadeIn {
+    opacity: 0;
+    transition: 1s;
+  }
+.fadeIn.is-show {
+    opacity: 1;
+  }
+
 /* 共通のスタイル */
 * {
     font-family: 'Oswald', sans-serif;
@@ -529,6 +584,10 @@ main {
     font-size: 13px;
     font-weight: lighter;
 }
-@media screen and (min-width:1100px){
 
+@media screen and (min-width: 1100px){
+    main {
+        max-width: fit-content;
+        margin: 0 auto;
+    }
 }
