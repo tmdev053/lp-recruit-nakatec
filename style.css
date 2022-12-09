@@ -134,12 +134,12 @@ main {
 }
 .whatWrapper {
     position: relative;
-    height: 100vh;
+    height: 900px;
     width: 100%;
 }
 
 .whatContentTop {
-    height: calc(100vh - 25%);
+    height: calc(900px - 25%);
 }
 
 .whattextbar1 {
@@ -221,14 +221,14 @@ main {
     margin-top: 100px;
 }
 .pointWrapper {
-    height: 90vh;
+    height: 830px;
     width: 100%;
     
     position: relative;
 }
 
 .pointContentTop {
-    height: calc(100vh - 30%);
+    height: calc(830px - 20%);
 }
 .pointTitle {
     position: absolute;
@@ -279,7 +279,7 @@ main {
 
 /* interview */
 .interviewWrapper {
-    height: 100vh;
+    height: 900px;
     width: 1440px;
     background-image: url('./img/interview/Rectangle\ 19\ \(2\).png');
     
@@ -295,7 +295,7 @@ main {
     gap: 20px;
 }
 .interviewCard {
-    height: 400px;
+    height: 385px;
     margin-left: 130px;
     width: 70%;
 }
@@ -341,14 +341,14 @@ main {
     margin-top: 100px;
 }
 .jobWrapper {
-    height: 90vh;
+    height: 810px;
     width: 100%;
     
     position: relative;
 }
 
 .jobContentTop {
-    height: calc(100vh - 30%);
+    height: calc(900px - 30%);
 }
 .jobTitle {
     position: absolute;
@@ -402,7 +402,7 @@ main {
     margin-top: 100px;
 }
 .recruitWrapper {
-    height: 170vh;
+    height: 1530px;
     width: 100%;
     position: relative;
 }
