@@ -218,10 +218,30 @@
                                     </div>
                                 
                                     <div class="btn-area">
-                                        <input type="submit" value="ENTRY" class="btn-text" onclick="check_contactform()">
-                                        <span class="btn-subtext">エントリー</span>
+                                        <a class="btn-text modal-open">
+                                            ENTRY
+                                            <p class="btn-subtext">エントリー</p>
+                                        </a>
                                     </div>
+                                    <!-- モーダル -->
+                                    <!-- モーダル本体 -->
+                                    <div class="modal-container">
+                                        <div class="modal-body">
+                                            <!-- 閉じるボタン -->
+                                            <div class="modal-close">×</div>
+                                            <!-- モーダル内のコンテンツ -->
+                                            <div class="modal-content">
+                                                <p>文章が入ります。</p>
+                                            </div>
+                                            <div class="btn-area">
+                                                <input type="submit" value="送信" class="btn-text" onclick="check_contactform()">
+                                                <span class="btn-subtext">エントリー</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- モーダル -->
                                 </form>
+
                             </div>
                         </div>
                     </div>
